@@ -5,13 +5,9 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="bg-zinc-950 ">
         <Home></Home>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-      </h1>
-      <h1 className="align-content: flex-end">hola mundooooooo</h1>
-      <h2>hola mundo 2 sin tailwind</h2>
+      
       </div>    
     </>
   )
