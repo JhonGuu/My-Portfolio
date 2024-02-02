@@ -1,10 +1,10 @@
 const Header = () => {
     return (
-        <header>
+        <header className= 'bg-red-500'>
             <div className="caja">
       <nav>
-        <ul className="">
-          <li><a href="index.html">Home</a></li>
+        <ul className="justify-end">
+          <li className="justify-end"><a href="index.html">Home</a></li>
           <li><a href="productos.html">About Me</a></li>
           <li><a href="/contacto.html">Contacto</a></li>
         </ul>
