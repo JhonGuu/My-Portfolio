@@ -1,22 +1,20 @@
 import foto from '../assets/foto-portada.jpg'
 const Body = () => {
-    return (
-        <div className="">
-            <body>
-              <div className=" cart  justify-items-center p-2   h-1/4 w-1/4    ">
-                <div className='flex justify-center border-x-white shadow-emerald-400'>
-                <img className='rounded-2xl' src={foto} width={400} alt="foto portada" />
-                </div>
-                <div className=' text-white flex justify-center  text  t-5xl p-1 m-1 '>
-                <h1>Juan Jose Aranda</h1>
-                
-                </div>
-                <p className=' text-white flex justify-center  text  t-5xl p-1 m-1 '>Web Developer Front-End</p>
-                
-              </div>    
-            </body>
-        </div>
-    );
+  return (
+    <main>
+      <div id='cart-present' className="">
+        <ul className=''>
+          <li className=' justify-center inline-block text-center  w-30% align-top border-2  rounded-2xl hover:border-green-500 shadow-xl shadow-cyan-500/50 '>
+            <h2 className='text-white text-center m-1 p-1 font-bold text-4xl '>Juan Jose Aranda</h2>
+            <img className= '' src={foto} width={400} alt="image-personal" />
+            <p className='text-white text-center m-1 p-1 font-bold text-2xl'>Web Developer - Front End</p>
+            <p className='text-white text-center m-1 p-1 font-bold text-1xl'>Traini</p>
+          </li>
+        </ul>
+
+      </div>
+    </main>
+  );
 };
 
 export default Body;
