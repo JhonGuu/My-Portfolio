@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-zinc-950 ">
+      <div className="bg-zinc-950 min-h-screen ">
         <Home></Home>
       
       </div>    
